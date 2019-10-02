@@ -1,0 +1,26 @@
+Software que se va a usar,en caso que se implemente el proyecto que se especifica 
+dentro del documento Supercomputadoras_basadas_en_clusters_de_PCs
+
+Investigacion:
+
+PVM (Parallel virtual Machine)
+En su traducción al español Maquina Virtual Paralela, es un sistema o conjunto de bibliotecas 
+que se usa principalmente dentro de la programación paralela, la cual me permite realizar una conexión 
+entre dos o más equipos de cómputo, con el objetivo integrar los recursos de estas computadoras, 
+para finalmente obtener el esquema de una sola máquina.
+Este software opera en diferentes plataformas como lo pueden ser (Unix y Windows), 
+aunque para la creación del proyecto se usara o se implementara dentro de la plataforma Linux.
+Algunas de las funciones del uso del PVM consiste en la mensajería asincrónica y 
+para el control de procesos entre los diferentes nodos presentes dentro del sistema, 
+además que permite la escalabilidad del mismo.
+
+Ventajas: 
+•	Entre las diferentes librerías existentes para el envío de mensajes en el paralelismo es uno de los más fáciles de usar.
+•	Control arbitrario de dependencias de estructura, esto permite que la aplicación determine: 
+(Donde y cuando Iniciar o terminar tareas, que maquinas se añaden o se eliminan desde la máquina virtual y finalmente que tareas se puede comunicar y/o sincronizar con otras.)
+
+Desventajas: 
+•	En gran medida el rendimiento del esquema dependerá de la capacidad de procesamiento de los 
+ordenadores o nodos que se encuentran dentro del esquema.
+•	Lo que es una ventaja también se puede convertir en una desventaja, ya que, aunque es muy fácil de usar, 
+esto conlleva a que sea algo deficiente en cuanto al paso de mensaje entre nodos.
