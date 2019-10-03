@@ -22,3 +22,17 @@ Responsabilidades: Encargado de toda la parte de soporte tecnico sobre infraestr
 Rol: Analista de Soporte (Yeimy Carolina Jimenez)
 Responsabilidades: Encargada de ofrecer asistencia técnica informática a momento de realizar pruebas o montaje del proyecto ya sea a nivel de software o hardware.
 
+MPI (Message Passing Interface) consiste de una biblioteca estándar para programación paralela en el modelo de intercambio de mensajes. En este estándar se han incluido los aspectos más relevantes de otras bibliotecas de programación paralela.
+
+PVM (Parallel Virtual Machine) Maneja transparentemente el ruteo de todos los mensajes, conversión de datos y calendarización de tareas a través de una red de arquitecturas incompatibles. Está diseñado para conjuntar recursos de cómputo y proveer a los usuarios de una plataforma paralela para correr sus aplicaciones, independientemente del número de computadoras distintas que utilicen y donde éstas se encuentren localizadas.
+
+OpenMosix es un parche (patch) al kernel de Linux que proporciona compatibilidad con el estándar de Linux versión 2.4
+
+Características de OpenMosix --Pros de OpenMosix: *No se requieren paquetes extra. *No son necesarias modificaciones en el código.
+
+--Contras de OpenMosix: *Es dependiente del kernel. *No migra todos los procesos siempre, tiene limitaciones de funcionamiento. Problemas con memoria compartida.
+
+Además los procesos con múltiples threads (hilos) no ganan demasiada eficiencia. Tampoco se obtiene mucha mejora cuando se ejecuta un solo proceso, como por ejemplo un navegador web.
+
+Administración de máquinas Linux con Webmin Webmin (webmin.com, paquete webmin), es una herramienta con interfaz web para la administración de sistemas Linux. Consiste en un conjunto de programas CGI escritos en Perl e incluye un servidor web que funciona con SSL (protocolo HTTPS), por lo que permite la administración remota segura de un servidor.
+Tiene estructura modular, disponiendo de módulos que permiten administrar gran cantidad de aspectos del sistema: red, servidores, hardware, archivos, etc., siendo su manejo muy intuitivo. Por todo ello, es una herramienta muy utilizada y recomendable para la administración remota segura de máquinas Linux.
