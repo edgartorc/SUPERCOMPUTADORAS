@@ -24,3 +24,13 @@ Desventajas:
 ordenadores o nodos que se encuentran dentro del esquema.
 •	Lo que es una ventaja también se puede convertir en una desventaja, ya que, aunque es muy fácil de usar, 
 esto conlleva a que sea algo deficiente en cuanto al paso de mensaje entre nodos.
+
+MOSIX
+Es un software con capacidades de computación de clústers, específicamente permite una mejora en el Kernel (Intermediario entre software y hardware) de Linux, esta mejora permite que cualquier clúster de estaciones de trabajo y servidores trabajen coordinadamente como parte de un solo sistema, permitirá ejecutar aplicaciones no paralelizados en un clúster, en otras palabras el software permite ejecutar programas convencionales destinados para funcionar en una maquita, en un clúster a través del envío de mensajes o la migración de procesos entre los nodos que se encuentran dentro del sistema.
+Una característica muy eficiente que tiene MOSIX dentro del funcionamiento de un clúster, es que realizara un monitoreo constante en los procesos que encuentre o que se están ejecutando y es de esta forma que dividir de forma correcta los procesos entre los nodos y generar un equilibrio, cabe destacar que este proceso antes mencionado lo realizara de forma automática.
+Debemos tener en cuenta que solo algunas aplicaciones se beneficiaran bajo este sistema de clúster que permita MOSIX, algunos de estos son:
+•	Procesos que necesiten para su funcionamiento el uso de una gran cantidad de CPU.
+•	Procesos que tengan tiempos de ejecución impredecibles.
+•	Un gran número de usuarios simultáneos (Concurrencia).
+•	Servidores Web predispuestos a escalabilidad. 
+
