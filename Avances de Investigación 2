@@ -38,4 +38,7 @@ MPI (Message Passing Interface)
 Es una librería que permite el paso de mensajes, ya sea de forma estándar y/o portable, se utilizan principalmente a la hora de realizar cálculos dentro de un clúster, se usa a través de un programa que permita la migración de procesos entre múltiples procesadores.
 El envió de mensaje es una técnica que se usa en programación concurrente que permite la sincronización de diversos procesos que se desean ejecutar entre nodos.
 
+Pruebas(Set de pruebas ) (Brayam Estiven Duran Cardona)
+
+Esto re realiza ya una vez la infraestructura se encuentre montada o ya en produccion donde se sabe las fallas del sistema, y los balances de cargas que se tendran.
 
