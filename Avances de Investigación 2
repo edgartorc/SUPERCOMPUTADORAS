@@ -40,5 +40,5 @@ El envió de mensaje es una técnica que se usa en programación concurrente que
 
 Pruebas(Set de pruebas ) (Brayam Estiven Duran Cardona)
 
-Esto re realiza ya una vez la infraestructura se encuentre montada o ya en produccion donde se sabe las fallas del sistema, y los balances de cargas que se tendran.
+Esto se realiza ya una vez la infraestructura se encuentre montada o ya en produccion donde se sabe las fallas del sistema, y los balances de cargas que se tendran.
 
